@@ -5,7 +5,7 @@ import hero2 from "../assets/hero2.png"
 
 const HeroSection = () => {
     return (
-        <section className='relative'>
+        <section className='relative mt-3 '>
             {/* introduction badge */}
             <div className='pt-16'>
                 <h1 className='  w-fit text-sm rounded-full px-4 py-0.5  border border-gray-500/20 bg-white flex items-center justify-center gap-1 mx-auto select-none'><span className=''><FaCodeBranch /></span>
@@ -22,7 +22,7 @@ const HeroSection = () => {
             </div>
 
             <div>
-                <p className='text-gray-950 text-center tracking-tight font-medium w-[50%] mx-auto '>GeeksforGeeks Student Chapters are campus communities for students passionate about computer science. They offer peer-to-peer learning, coding events, webinars, and placement support. Members can access internships, exclusive course discounts, and opportunities to organize national-level competitions, all while building a network across 145+ colleges.</p>
+                <p className='text-gray-950 text-center tracking-tight font-medium px-20 mx-auto '>GeeksforGeeks Student Chapters are campus communities for students passionate about computer science. They offer peer-to-peer learning, coding events, webinars, and placement support. Members can access internships, exclusive course discounts, and opportunities to organize national-level competitions, all while building a network across 145+ colleges.</p>
             </div>
 
             {/* Buttons */}
